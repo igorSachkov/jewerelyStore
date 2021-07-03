@@ -1,14 +1,338 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js" defer></script>
+    <script src="bootstrap.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+
     <title>Jewerely Store</title>
 </head>
-<body>
-    
+<div class="first-page">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container container-main-nav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#"><p>Контрагентам</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><p>Дизайнерам</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><p>Вакансии</p></a>
+                </li>
+            </ul>
+            <div class="container container-logo">
+                <img src="/images/logo.png" alt="" srcset="">
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white d-flex" aria-current="page" href="#">
+                        <img class="search-icon me-3" src="/images/gridicons_search.png" alt="" srcset="">
+                        <p>Поиск</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><p>Вход/Регистрация</p></a>
+                </li>
+                <li class="nav-item d-flex">
+                    <a class="nav-link" href="#"><img class="nav-icons" src="/images/Vector.png" alt="" srcset=""></a>
+                    <a class="nav-link" href="#"><img class="nav-icons" src="/images/VectorHeart.png" alt="" srcset=""></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="container">
+            <div class="content text-center">
+                <h1 class="main-h1">Долго, дорого, богато!</h1>
+            </div>
+            <div class="content text-center main-button">
+                <button type="button" class="btn btn-secondary btn-lg">КАТАЛОГ ИЗДЕЛИЙ</button>
+            </div>
+        </div>
+    </div>
+    <hr class="white-line">
+    <div class="container container-down-logos">
+        <div class="row">
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+            <div class="col-2"><img src="/images/Rectangle.png" alt="" srcset="">
+                <div class="container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="second-page">
+    <div class="container">
+        <div class="container second-page__heading text-center">
+            <p>К мероприятиям</p>
+            <h2 class="noto-h2">Настоящая красота здесь!</h2>
+        </div>
+        <div class="container container-choose-products">
+            <div class="row">
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">СВАДЬБА</button></div>
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">МУЖУ</button></div>
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">ЖЕНЕ</button></div>
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">ПАРТНЕРУ</button></div>
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">КОЛЛЕКЦИИ</button></div>
+                <div class="col-xl-2 col-md-4 mt-2"><button
+                        class="btn btn-outline-secondary btn__second-page">РЕДКОСТЬ</button></div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/rings.png" class="card-img" alt="rings">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">КОЛЬЦА</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/earrings.png" class="card-img" alt="earrings">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">СЕРЬГИ</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/pendants.png" class="card-img" alt="pendants">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">ПОДВЕСКИ</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/cufflinks.png" class="card-img" alt="cufflinks">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">ЗАПОНКИ</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/bracelets.png" class="card-img" alt="bracelets">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">БРАСЛЕТЫ</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card product-card">
+                        <img src="/goods/clock.png" class="card-img" alt="clock">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">ЧАСЫ</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="background-footer d-flex align-items-center">
+    <div class="container">
+        <div class="background-footer-info">
+            <p>Не знаете что выбрать?</p>
+            <h2 class="noto-h2">Посетите наши салоны в Москве</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, magni. At, sit distinctio, natus
+                repellendus ipsam porro aliquid recusandae earum nemo dignissimos dolor ullam, cupiditate maiores nulla
+                nam ut exercitationem dolore minus optio eligendi? Architecto, quo. Rerum incidunt repellendus soluta.
+            </p>
+            <a href="#"><button type="button" class="btn btn-light">НАШИ САЛОНЫ</button></a>
+        </div>
+    </div>
+</div>
+<div class="third-page">
+    <div class="container">
+        <div class="container third-page__heading text-center">
+            <p>Полезные статьи</p>
+            <h2 class="noto-h2">Лучшие советы по подбору дорогих подарков</h2>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-xl-4">
+                <div class="card blog-card">
+                    <img src="/images/blog1.png" class="card-img" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Как выбрать часы для своей будущей жены</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card blog-card">
+                    <img src="/images/blog2.png" class="card-img" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Запонки для мужа: 7 ключевых правил покупки аксессуара</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card blog-card">
+                    <img src="/images/blog3.png" class="card-img" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Как выбрать обручальные кольца молодоженам</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content text-center main-button">
+            <a href="#"><button type="button" class="btn btn-secondary btn-lg">ЧИТАТЬ НАШ БЛОГ</button></a>
+        </div>
+    </div>
+</div>
+<div class="fourth-page">
+    <div class="container">
+        <div class="container fourth-page__heading text-center">
+            <p>#ojjo_jewerly</p>
+            <h2 class="noto-h2">Мы в социальных сетях</h2>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <iframe class="social-media-card" width="555" height="300"
+                    src="https://www.youtube.com/embed/pH_bSQ1M0ks" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-3">
+                <div class="card social-media-card">
+                    <img src="/images/social_media_card1.png" class="card-img" alt="">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card social-media-card">
+                    <img src="/images/social_media_card2.png" class="card-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card social-media-card">
+                    <img src="/images/social_media_card3.png" class="card-img" alt="">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card social-media-card">
+                    <img src="/images/social_media_card4.png" class="card-img" alt="">
+                </div>
+            </div>
+            <div class="col-6">
+                <iframe class="social-media-card" width="555" height="300"
+                    src="https://www.youtube.com/embed/h1yKxOTs4uY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="background-footer d-flex align-items-center">
+    <div class="container">
+        <div class="background-footer-info">
+            <p>Полезные советы и персональный предложения</p>
+            <h2 class="noto-h2">Эксклюзивная рассылка</h2>
+            <div class="row">
+                <div class="col-4">
+                    <ul class="">
+                        <li>Личный менеджер</li>
+                        <li>Доставка и оформление</li>
+                        <li>Индивидуальный дизайн</li>
+                    </ul>
+                </div>
+                <div class="col-8">
+
+
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <label for="staticEmail2" class="visually-hidden">Email</label>
+                            <input type="text" readonly class="form-control" id="staticEmail2" value="ВАШ E-MAIL">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-secondary mb-3">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer-info">
+            <div class="row">
+                <div class="col-3">
+                    <h2>ПОЛЕЗНЫЕ ССЫЛКИ</h2>
+                    <ul>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h2>ОПЛАТА</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, consequatur.</p>
+                    <div class="pay-cards d-flex">
+                        <a href="#"><img src="/icons/visa.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/icons/master_card.png" alt="" srcset=""></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h2>КОНТАКТЫ</h2>
+                    <ul>
+                        <li><a href="#">8 (812) 234-56-55</a></li>
+                        <li><a href="#">8 (812) 234-56-55</a></li>
+                        <li><a href="#">ojjo@ojjo.ru</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h2>СОЦИАЛЬНЫЕ СЕТИ</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea repellat corporis aliquid id
+                        repudiandae.</p>
+                    <div class="social-network-icons d-flex">
+                        <a href="#"><img src="/icons/youtube_icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/icons/vk_icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/icons/facebook_icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/icons/telegramm_icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/icons/e_icon.png" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-3"><a href="#">(c) 2020 OJJO jewelry</a></div>
+                <div class="col-3"><a href="#">Договор публичной офферты</a></div>
+                <div class="col-3"><a href="#">Контрагентам</a></div>
+                <div class="col-3"><a href="#">Сделано Figma.info</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
+
 </html>
