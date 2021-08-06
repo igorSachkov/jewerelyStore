@@ -42,6 +42,7 @@ img {
     max-width: 1134px;
     &-logo {
         max-width: 240px;
+        margin-left: 9%;
     }
     &-main-nav {
         margin-top: 18px;
@@ -50,6 +51,8 @@ img {
 }
 .main-h1 {
     @include fontNotoSerid;
+    text-shadow: 0px 4px 4px black;
+    margin-top: 513px
 }
 .noto-h2 {
     @include h2NotoSerif;
@@ -57,13 +60,6 @@ img {
 .search-icon {
     width: 22px;
     height: 22px;
-}
-.main-content {
-    margin-top: 26.8%;
-    
-}
-.main-button {
-    margin-top: 50px;
 }
 .white-line {
     margin-top: 80px;
@@ -106,4 +102,34 @@ img {
 .nav-icons {
     height: 17px;
     object-fit: contain;
+}
+.nav-01 {
+    padding-left: 12px;
+    padding-right: 20px;
+    letter-spacing: -.1px;
+}
+.nav-02 {
+    letter-spacing: .2px;
+}
+.nav-03 {
+    padding-left: 24px;
+}
+.nav-04 {
+    span {
+        padding-left: 16px;
+    }
+}
+.nav-05 {
+    padding-left: 20px;
+}
+.main-btn {
+    border-radius: 0;
+    border: white solid 1px;
+    text-transform: uppercase;
+    background-color: #333333;
+    width: 261px;
+    height: 51px;
+    margin-top: 44px;
+    letter-spacing: 1.55px;
+    font-size: 18px;
 }
